@@ -1,6 +1,3 @@
-from tempfile import template
-
-from attr import field
 from langchain_core.prompts import PromptTemplate
 from langchain_groq.chat_models import ChatGroq
 from dotenv import load_dotenv
